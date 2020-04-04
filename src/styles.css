@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: "50%";
+  margin: "0 auto";
+}
+code {
+  color: "red";
+}
+fieldset {
+  margin-bottom: "20px";
+  text-align: "left";
+  font-size: "14px";
+}
+textArea {
+  box-sizing: "border-box";
+  font-size: "14px";
+  width: "100%";
+}
+ul {
+  padding-inline-start: "20px";
+}
