@@ -23,14 +23,6 @@ export default function App() {
     });
   }, []);
 
-  const styles = {
-    code: { color: "red" },
-    fieldset: { marginBottom: "20px", textAlign: "left", fontSize: "14px" },
-    textArea: { boxSizing: "border-box", fontSize: "14px", width: "100%" },
-    ul: { paddingInlineStart: "20px" },
-    wrapper: { width: "50%", margin: "0 auto" },
-  };
-
   return (
     <div className="App">
       <h2>Auto bullet & numbering</h2>
