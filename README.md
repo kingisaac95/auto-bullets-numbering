@@ -2,8 +2,6 @@
 
 A little demo of automatic insertion of bullets and numbering in a textarea element as you'd get in most WYSIWYG editors
 
-<img width="739" alt="Screenshot 2020-04-04 at 23 30 45" src="https://user-images.githubusercontent.com/26261917/78462679-56ce7b80-76cc-11ea-9f34-966cfcc9d33d.png">
-
 ### Usage guide
 
 - Use `*` or `-` for a bullet.
@@ -18,3 +16,5 @@ Examples
 
 1. First point
 ```
+
+<img width="728" alt="demo screen" src="https://user-images.githubusercontent.com/26261917/78551849-50402100-77fe-11ea-9276-cad981db6a25.png">
