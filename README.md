@@ -1,6 +1,8 @@
-# auto-bullets-numbering
+# Auto bullets and numbering
 
-A little demo of automatic insertion of bullets and numbering in a textarea element as you'd get in most WYSIWYG editors
+A little demo of automatic insertion of bullets and numbering in a `textarea` element as you'd get in most WYSIWYG editors.
+
+This is still a WIP, but the basic version works.
 
 ### Usage guide
 
