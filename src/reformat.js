@@ -54,14 +54,14 @@ export const reformatTextBody = (textBody) => {
   return lines.join("\n").concat(currentLine);
 };
 
-export const reformatBullet = (textBody) => {
-  const lines = textBody.split("\n");
+export const reformatBullet = (textAreaElement) => {
+  const lines = textAreaElement.value.split("\n");
   // get symbol from last line
   const symbol = lines[lines.length - 1].split(" ")[0];
   // replace * with bullet symbol
   if (symbol === "*") {
     // add appropriate bullet with space for formatting
     lines[lines.length - 1] = "● ";
-    textArea.value = lines.join("\n");
+    return (textAreaElement.value = lines.join("\n"));
   }
 };

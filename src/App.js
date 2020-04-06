@@ -12,7 +12,7 @@ export default function App() {
       }
 
       if (event.key === " ") {
-        textArea.value = reformatBullet(textArea.value);
+        reformatBullet(textArea);
       }
     });
 
@@ -27,7 +27,7 @@ export default function App() {
     <div className="App">
       <h2>Auto bullet & numbering</h2>
       <form>
-        <textarea id="messageBox" rows="4" placeholder="Type your message" />
+        <textarea id="messageBox" rows="10" placeholder="Type your message" />
       </form>
 
       <fieldset>
